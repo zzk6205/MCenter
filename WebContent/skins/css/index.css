@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {font-size: 12px; font-family: Tahoma, Verdana, 微软雅黑, 新宋体}
+body {background: #D2E0F2; min-width: 800px;}
+a {color: black; text-decoration: none;}
+a: hover {color: red; text-decoration: underline;}
+
+.footer {text-align: center; color: #15428B; margin: 0px; padding: 0px; line-height: 23px; font-weight: bold;}
+
+.easyui-accordion ul {list-style-type: none; margin: 0px; padding: 10px;}
+.easyui-accordion ul li {padding: 0px;}
+.easyui-accordion ul li a {line-height: 24px;}
+.easyui-accordion ul li div {margin: 2px 0px; padding-left: 10px; padding-top: 2px;}
+.easyui-accordion ul li div.hover {border: 1px dashed #99BBE8; background: #E0ECFF; cursor: pointer;}
+.easyui-accordion ul li div.hover a {color: #416AA3;}
+.easyui-accordion ul li div.selected {border: 1px solid #99BBE8; background: #E0ECFF; cursor: default;}
+.easyui-accordion ul li div.selected a {color: #416AA3; font-weight: bold;}
+
+.icon {background: url(../images/tabicons.png) no-repeat; width: 18px; line-height: 18px; display: inline-block;}
+.icon-sys {background-position: 0px -200px;}
+.icon-set {background-position: -380px -200px;}
+.icon-add {background-position: -20px 0px;}
+.icon-nav {background-position: -100px -20px;}
+.icon-set {background-position: -380px -200px;}
+.icon-log {background-position: -380px -80px;}
+.icon-role {background-position: -360px -200px;}
+.icon-edit {background-position: -380px -320px;}
+.icon-users {background-position: -100px -480px;}
+.icon-magic {background-position: 0px -500px;}
+.icon-delete {background-position: -140px -120px;}
+.icon-database {background-position: -20px -140px;}
+
+.north-left {top: 0px; left: 0px; width: 576px; height: 71px; background: url(../images/index-top-01.jpg) no-repeat;}
+.north-center {position: absolute; top: 0px; left: 576px; width: 100%; height: 71px; background: url(../images/index-top-02.jpg) repeat-x;}
+.north-right {position: absolute; top: 0px; right: 0px; width: 350px; height: 71px;}
+.north-right-01 {position: absolute; height: 71px; width: 45px; background: url(../images/index-top-03.jpg);}
+.north-right-02 {position: absolute; height: 71px; width: 100%; left: 45px; top: 0px; background: url(../images/index-top-04.jpg) repeat-x;}
+.north-right-02 a {display: block; float: left; margin-left: 8px; text-decoration: none; font-family: 宋体, Arial; font-size: 12px; color: black; line-height: 18px; outline: 0 none;}
+.north-right-02 p {display: block; position: absolute; left: 10%; bottom: 0px; font-family: 宋体, Arial; font-size: 12px; line-height: 18px;}
+.north-right-top {position: absolute; width: 234px; height: 19px; right: 40px; top: 0px; background: url(../images/index-top-05.gif) no-repeat;}
+.north-right-home {float: left; width: 15px; height: 14px; margin-left: 45px; margin-top: 1px; background: url(../images/index-top-06.gif) no-repeat;}
+.north-right-logout {float: left; width: 13px; height: 13px; margin-left: 30px; margin-top: 2px; background: url(../images/index-top-07.gif) no-repeat;}
+
+.top-menu {float: left; width: 100%; heigth: 23px; background: url(../images/index-top-menu-bg.jpg) repeat-x; white-space: nowrap; padding-left: 15px;}
+
+.top-menu-items {float: left; width: 90%; height: 23px; overflow: hidden; white-space: nowrap;}
+.top-menu-item {height: 23px; display: inline-block; display: -moz-inline-stack; *display: inline; *zoom: 1;}
+.top-menu-item-left {margin-left: 5px; float: left; width: 7px; height: 23px; background: url(../images/index-top-menu-item-left.gif) no-repeat center center;}
+.top-menu-item-center {height: 23px; float: left; line-heigth: 23px;}
+.top-menu-item-center a {display: block; float: left; margin-left: 10px; margin-right: 5px; text-decoration: none; white-space: nowrap; font-family: 宋体,Arial; font-size: 12px; color: black; line-height: 23px; outline: 0 none; vertical-align: middle; zoom: 1;}
+.top-menu-item-center a:hover {margin-top: 1px; color: blue;}
+.top-menu-item-right {width: 3px; height: 23px; float: left;}
+.selected .top-menu-item-left {width: 3px; background: url(../images/index-top-menu-item-left-selected.gif) no-repeat center center;}
+.selected .top-menu-item-center {background: url(../images/index-top-menu-item-center-selected.gif) repeat-x center center;}
+.selected .top-menu-item-center a {margin-left: 15px; margin-right: 13px;}
+.selected .top-menu-item-center a:hover {color: black; margin-top: 0px; cursor: default;}
+.selected .top-menu-item-right {background: url(../images/index-top-menu-item-right-selected.gif) no-repeat center center;}
+
+.top-menu-buttons {float: right; width: 64px; height: 23px;}
+.top-menu-buttons div {margin-left: 5px; float: left; height: 23px;}
+.top-menu-left {width: 16px; cursor: pointer; background: url(../images/index-top-menu-left.png) no-repeat center;}
+.top-menu-right {width: 16px; cursor: pointer; background: url(../images/index-top-menu-right.png) no-repeat center;}

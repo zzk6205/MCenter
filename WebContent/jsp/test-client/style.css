@@ -1,0 +1,10 @@
+.test-client {
+	margin-top: 30px;
+}
+
+textarea {
+	border: none;
+	width: 100%;
+	height: 300px;
+	line-height: 24px;	
+}
